@@ -1,0 +1,174 @@
+.form-contact .step-3 .text-form span,
+.form-contact .step-4 .text-input span{
+	color: var(--red-1);
+	font-weight: 300 !important;
+}
+.form .container-checkbox label .text a,
+.module-intro .d-list-topics .items .title-topics {
+	color: var(--red-1);
+}
+	#main-transition .module-awards .list-module-awards .container-img {
+		display: block;
+		height: 14rem;
+	}
+
+	#main-transition .module-awards .list-module-awards .container-img img {
+		height: 6rem;
+	}
+#main-transition .module-awards .list-module-awards .container-img p {
+	letter-spacing: .33em;
+	text-transform: uppercase;
+	line-height: 1em;
+	font-weight: 300;
+	font-size: 1.4rem;
+	text-align: center;
+	margin-top: 5px;
+}
+
+/* mobile */
+@media only screen and (max-width: 767.98px) {
+	.module-big-media.full-size.video .container-video,
+	.module-big-media.full-size.video .container-video iframe,
+	.module-big-media.video .container-video iframe {
+		height: 65vw;
+		width: 100%;
+		left: 0;
+		margin-top: 0;
+	}
+	.module-big-media.full-size.video.vertical .container-video iframe,
+	.module-big-media.video.vertical .container-video iframe {
+		height: 230vw;
+		margin-top:-85vw;
+	}
+}
+
+.contact-adress .d-address {
+	margin-top: 68px !important;
+}
+.d-address + .d-address {
+	margin-top: 54px !important;
+}
+#pg-contact .contact-adress .row-1 .column-1 .d-address address span.red-1 {
+	color: var(--red-1);
+	text-transform: uppercase;
+}
+#pg-contact .contact-adress .d-line-active {
+	height: 1px;
+	width: 73%;
+	position: absolute;
+	width: 0;
+	left: 163px;
+	left: 9vw;
+	bottom: 11px;
+	bottom: 0.5vw;
+	background-color: var(--red-1);
+
+	-webkit-transition: all 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+	-moz-transition: all 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+	-ms-transition: all 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+	-o-transition: all 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+	transition: all 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+#pg-contact .contact-adress .d-address.active .d-line-active {
+	width: 10vw;
+	-webkit-transition: all 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+	-moz-transition: all 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+	-ms-transition: all 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+	-o-transition: all 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+	transition: all 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+#pg-contact .contact-adress .d-address .link-underline:before {
+	width: 100%;
+	content: '';
+	display: block;
+	height: 1px;
+	background-color: var(--color-hover, white);
+	bottom: 0;
+	left: 0;
+	top: auto;
+	right: auto;
+	transform:scaleX(1);
+}
+
+@media only screen and (min-width: 1025.1px) {
+	body.es #pg-expertise-post .expertise-post-initial .container-2 .column-2 .title .mask-animation--wrapper.last-line:before {
+		width: 11rem;
+	}
+	body.es #pg-expertise-post .expertise-post-initial .container-2 .column-2 .title .mask-animation--wrapper.last-line {
+		padding-left: 13rem;
+	}
+	body.es #pg-expertise-post .expertise-post-initial .container-2 .column-2 .title {
+		font-size: 7rem;
+	}
+	#pg-expertise-post .expertise-post-initial .container-2 .column-2 .paragraph,
+	.module-two-columns-image-title-text .column-text .d-expansive-paragraph .d-paragraph,
+	.module-two-columns-image-text .column-text .d-expansive-paragraph .d-paragraph {
+		max-width: 44.2rem;
+	}
+	.module-title-paragraph .column-title-paragraph .d-expansive-paragraph .d-paragraph {
+		max-width: 89.8rem;
+	}
+}
+@media only screen and (max-width: 1025.1px) {
+	#pg-contact .contact-adress .d-line-active {
+		left: 14vw;
+		bottom: 0.8vw;
+		background-color: var(--red-1);
+	}
+}
+@media only screen and (max-width: 767.98px) {
+	#pg-contact .contact-adress .container-img {
+		display: none;
+	}
+	#pg-contact .contact-adress .d-line-active {
+		display: none;
+	}
+	#pg-contact .d-contact-info {
+		margin-top: 20rem !important;
+	}
+}
+
+@media only screen and (min-width: 1025.1px) {
+	.home-initial .headline .title .container-title > span:nth-child(1) {
+		left: 18rem;
+	}
+
+	.home-initial .headline .title .container-title > span:nth-child(2) {
+		left: 60.5rem;
+	}
+
+	body.es .home-initial .headline .title .container-title > span:nth-child(1) {
+		left: 9rem;
+	}
+
+	body.es .home-initial .headline .title .container-title > span:nth-child(2) {
+		left: 55.5rem;
+	}
+
+	body.es .home-initial .headline .title .container-title > span:nth-child(3) {
+		left: -12rem;
+	}
+
+	body.es .home-initial .headline .title .container-title > span:nth-child(4) {
+		left: 70.5rem;
+	}
+
+	.home-initial [data-get-section='home-about'] .title .container-title > span:nth-child(1), .home-initial [data-get-section='home-transition'] .title .container-title > span:nth-child(1), .home-initial [data-get-section='home-selected-work'] .title .container-title > span:nth-child(1) {
+		left: 37rem;
+	}
+	.home-initial [data-get-section='home-about'] .title .container-title > span:nth-child(2), .home-initial [data-get-section='home-transition'] .title .container-title > span:nth-child(2), .home-initial [data-get-section='home-selected-work'] .title .container-title > span:nth-child(2) {
+		left: 12rem;
+	}
+	body.es .home-initial [data-get-section='home-about'] .title .container-title > span:nth-child(1), body.es .home-initial [data-get-section='home-transition'] .title .container-title > span:nth-child(1), body.es .home-initial [data-get-section='home-selected-work'] .title .container-title > span:nth-child(1) {
+		left: 35.5rem;
+	}
+	body.es .home-initial [data-get-section='home-about'] .title .container-title > span:nth-child(2), body.es .home-initial [data-get-section='home-transition'] .title .container-title > span:nth-child(2), body.es .home-initial [data-get-section='home-selected-work'] .title .container-title > span:nth-child(2) {
+		left: -3rem;
+	}
+	body.es .home-initial [data-get-section='home-about'] .title .container-title > span:nth-child(3), body.es .home-initial [data-get-section='home-transition'] .title .container-title > span:nth-child(3), body.es .home-initial [data-get-section='home-selected-work'] .title .container-title > span:nth-child(3) {
+		left: 25.5rem;
+	}
+	body.es .home-initial [data-get-section='home-about'] .title .container-title > span:nth-child(4), body.es .home-initial [data-get-section='home-transition'] .title .container-title > span:nth-child(4), body.es .home-initial [data-get-section='home-selected-work'] .title .container-title > span:nth-child(4) {
+		left: 18rem;
+	}
+}
